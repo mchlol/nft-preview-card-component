@@ -27,19 +27,19 @@ a:hover {
 
 main {
   background-color: #14253d;
-  width: auto;
   display: flex;
   flex-direction: column;
-  width: 350px;
-  height: 590px;
+  width: 300px;
+  height: 85%;
   border-radius: 25px;
   padding: 30px;
 }
 
 .hero-img {
   border-radius: 25px;
-  width: 350px;
+  width: 300px;
   height: auto;
+  margin: 0;
 }
 
 .title {

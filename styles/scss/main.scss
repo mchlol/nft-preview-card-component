@@ -40,19 +40,19 @@ a {
 
 main {
     background-color: $card-dark-blue;
-    width: auto;
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 590px;
+    width: 300px;
+    height: 85%;
     border-radius: $border-radius;
     padding: 30px;
 }
 
 .hero-img {
     border-radius: $border-radius;
-    width: 350px;
+    width: 300px;
     height: auto;
+    margin: 0;
 }
 
 
