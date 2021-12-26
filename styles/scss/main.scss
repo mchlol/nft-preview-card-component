@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+$font-stack: "Outfit", sans-serif;
+$soft-blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+$main-dark-blue: hsl(217, 54%, 11%);
+$card-dark-blue: hsl(216, 50%, 16%);
+$line-dark-blue: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+$border-radius: 25px;
+
+// Mobile: 375px
+// Desktop: 1440px
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-stack;
+    font-size: 18px;
+    background-color: $main-dark-blue;
+    color: $soft-blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+        color: $cyan;
+    }
+}
+
+main {
+    background-color: $card-dark-blue;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 590px;
+    border-radius: $border-radius;
+    padding: 30px;
+}
+
+.hero-img {
+    border-radius: $border-radius;
+    width: 350px;
+    height: auto;
+}
+
+
+.title {
+    color: $white;
+    &:hover {
+        color: $cyan;
+    }
+}
+
+span {
+    display: flex;
+    align-items: center;
+    
+    img {
+        padding-right: 10px;
+    }
+}
+
+.separator {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-code {
+    color: $cyan;
+}
+
+hr {
+    border: 1px solid $line-dark-blue;
+    width: 350px;
+    margin: 20px 0px 20px 0px;
+}
+
+.credit {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    span {
+    padding-left: 10px;
+
+    a {
+        padding-left: 10px;
+    }
+
+    }
+}
+
+.credit-icon {
+    border: 1px solid $white;
+    border-radius: 50%;
+    height: 32px;
+    width: auto;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 20px;
+
+    a {
+        color: $cyan;
+        text-decoration: none;
+      }
+  }

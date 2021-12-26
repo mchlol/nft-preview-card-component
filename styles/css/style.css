@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: #0d192b;
+  color: #8bacda;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #00fff7;
+}
+
+main {
+  background-color: #14253d;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 590px;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.hero-img {
+  border-radius: 25px;
+  width: 350px;
+  height: auto;
+}
+
+.title {
+  color: white;
+}
+.title:hover {
+  color: #00fff7;
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
+span img {
+  padding-right: 10px;
+}
+
+.separator {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft-code {
+  color: #00fff7;
+}
+
+hr {
+  border: 1px solid #2f415b;
+  width: 350px;
+  margin: 20px 0px 20px 0px;
+}
+
+.credit {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.credit span {
+  padding-left: 10px;
+}
+.credit span a {
+  padding-left: 10px;
+}
+
+.credit-icon {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 32px;
+  width: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20px;
+}
+.attribution a {
+  color: #00fff7;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+{
+  "name": "nft-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "frontendmentor_project_nft_preview_card",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass styles/scss/main.scss styles/css/style.css -w"
+  },
+  "author": "mchlol",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.0",
+    "sass": "^1.45.1"
+  }
+}
