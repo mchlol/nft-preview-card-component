@@ -53,6 +53,36 @@ main {
     width: 300px;
     height: auto;
     margin: 0;
+    z-index: 1;
+}
+
+.img-overlay {
+    height: 300px;
+    width: 300px;
+    border-radius: $border-radius;
+
+    position: absolute;
+    top: 2;
+    left: 2;
+    display: hidden;
+
+    img {
+        opacity: 0;
+    }
+
+    &:hover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsla(178, 100%, 50%, 50%);
+        z-index: 2;
+
+        img {
+            opacity: 1;
+            z-index: 3;
+        }
+    }
+
 }
 
 
@@ -113,9 +143,4 @@ hr {
     font-size: 11px;
     text-align: center;
     padding-top: 20px;
-
-    a {
-        color: $cyan;
-        text-decoration: none;
-      }
   }

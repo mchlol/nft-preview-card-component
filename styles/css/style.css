@@ -40,6 +40,31 @@ main {
   width: 300px;
   height: auto;
   margin: 0;
+  z-index: 1;
+}
+
+.img-overlay {
+  height: 300px;
+  width: 300px;
+  border-radius: 25px;
+  position: absolute;
+  top: 2;
+  left: 2;
+  display: hidden;
+}
+.img-overlay img {
+  opacity: 0;
+}
+.img-overlay:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 255, 247, 0.5);
+  z-index: 2;
+}
+.img-overlay:hover img {
+  opacity: 1;
+  z-index: 3;
 }
 
 .title {
@@ -95,10 +120,6 @@ hr {
   font-size: 11px;
   text-align: center;
   padding-top: 20px;
-}
-.attribution a {
-  color: #00fff7;
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
