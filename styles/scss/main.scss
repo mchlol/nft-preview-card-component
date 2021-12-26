@@ -7,7 +7,7 @@ $main-dark-blue: hsl(217, 54%, 11%);
 $card-dark-blue: hsl(216, 50%, 16%);
 $line-dark-blue: hsl(215, 32%, 27%);
 $white: hsl(0, 0%, 100%);
-$border-radius: 25px;
+$border-radius: 20px;
 
 // Mobile: 375px
 // Desktop: 1440px
@@ -113,7 +113,6 @@ span {
 
 hr {
     border: 1px solid $line-dark-blue;
-    width: 350px;
     margin: 20px 0px 20px 0px;
 }
 
@@ -123,10 +122,10 @@ hr {
     justify-content: left;
 
     span {
-    padding-left: 10px;
+    padding-left: 8px;
 
     a {
-        padding-left: 10px;
+        padding-left: 8px;
     }
 
     }

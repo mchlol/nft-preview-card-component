@@ -31,12 +31,12 @@ main {
   flex-direction: column;
   width: 300px;
   height: 85%;
-  border-radius: 25px;
+  border-radius: 20px;
   padding: 30px;
 }
 
 .hero-img {
-  border-radius: 25px;
+  border-radius: 20px;
   width: 300px;
   height: auto;
   margin: 0;
@@ -46,7 +46,7 @@ main {
 .img-overlay {
   height: 300px;
   width: 300px;
-  border-radius: 25px;
+  border-radius: 20px;
   position: absolute;
   top: 2;
   left: 2;
@@ -93,7 +93,6 @@ span img {
 
 hr {
   border: 1px solid #2f415b;
-  width: 350px;
   margin: 20px 0px 20px 0px;
 }
 
@@ -103,10 +102,10 @@ hr {
   justify-content: left;
 }
 .credit span {
-  padding-left: 10px;
+  padding-left: 8px;
 }
 .credit span a {
-  padding-left: 10px;
+  padding-left: 8px;
 }
 
 .credit-icon {
