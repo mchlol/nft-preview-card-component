@@ -25,12 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-<img height="250px" width="auto" src="./images/screenshot.png"/>  
+Screenshot:  
+<img height="250px" width="auto" src="./images/screenshot.png"/>   
+Active:  
 <img height="250px" width="auto" src="./images/screenshot-active.png"/>  
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/nft-preview-component-sass-flexbox-mobilefirst-itch2auSU)
 -  [Live site](https://mchlol.github.io/nft-preview-card-component/)
 
 ## My process
@@ -52,7 +54,7 @@ Users should be able to:
 
 ### What I learned
 
-Sass is awesome! I haven't used all the features of Sass here but nesting was super helpful to keep things organised. The only thing is when using the terminal to commit to git I have to stop watching Sass and then remember to go back and watch it again. A few times I would be changing things and nothing woudl be updating and then I'd realise I hadn't started watching Sass again.  
+Sass is awesome! I haven't used all the features of Sass here but nesting was super helpful to keep things organised. The only thing is when using the terminal to commit to git I have to stop watching Sass and then remember to go back and watch it again. A few times I would be changing things and nothing would be updating and then I'd realise I hadn't started watching Sass again.  
   
 Another key thing here was creating the transparent cyan layer for the active state on the image. First I thought of using invert() but of course that didn't match the preview.  Then I used opacity which worked great but the icon ended up with the same opacity. I saw a tip in the comments on [this post on CSS Tricks](https://css-tricks.com/almanac/properties/o/opacity/) to use RGB with an alpha value on the colour itself, which won't affect any text in the div. So I took the hsl colour from that Sass variable and used hsla on that element only, which worked perfectly.  
 
@@ -65,6 +67,4 @@ Another key thing here was creating the transparent cyan layer for the active st
 
 ## Author
 
-- Website - [Portfolio](https://mchlol.github.io/portfolio/)
-- Frontend Mentor - [@mchlol](https://www.frontendmentor.io/profile/mchlol)
-
+- mchlol- [Portfolio](https://mchlol.github.io/portfolio/)
